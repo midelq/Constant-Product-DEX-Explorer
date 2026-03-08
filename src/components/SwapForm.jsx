@@ -23,9 +23,9 @@ export default function SwapForm({ pool }) {
 
     // Кольорова підсвітка slippage
     const slipColor = (slip) => {
-        if (slip < 1) return "var(--success)";
-        if (slip < 5) return "var(--warning)";
-        return "var(--danger)";
+        if (slip < 2) return "var(--success)";     // 🟢 зелений — малий slippage
+        if (slip < 15) return "var(--warning)";    // 🟡 жовтий — середній
+        return "var(--danger)";                     // 🔴 червоний — великий
     };
 
     const fmt = (n, d = 2) =>
