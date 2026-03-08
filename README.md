@@ -55,7 +55,7 @@ slippage (%) = |effectivePrice − spotPrice| / spotPrice × 100
 
 ---
 
-## 📊 3 Scenarios — Results Table
+## 3 Scenarios — Results Table
 
 **Pool configuration:** `reserveA = 100,000` | `reserveB = 100,000` | `fee = 0.3%` | direction: `A → B`
 
@@ -69,7 +69,7 @@ slippage (%) = |effectivePrice − spotPrice| / spotPrice × 100
 
 ---
 
-## 📝 Conclusions About Slippage
+## Conclusions About Slippage
 
 - **Slippage grows non-linearly with trade size.** A small swap (1% of pool) produces ~1.3% slippage, while a large swap (40%) results in ~28.7% — far more than proportional. This is because the `x·y=k` curve is a hyperbola: the further you move along it, the steeper the price change becomes.
 
@@ -79,7 +79,7 @@ slippage (%) = |effectivePrice − spotPrice| / spotPrice × 100
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── index.html                    # Entry HTML (with Google Fonts)
