@@ -55,6 +55,10 @@ slippage (%) = |effectivePrice − spotPrice| / spotPrice × 100
 
 ---
 
+### Results
+U can see all results in results folder
+
+
 ## 3 Scenarios — Results Table
 
 **Pool configuration:** `reserveA = 100,000` | `reserveB = 100,000` | `fee = 0.3%` | direction: `A → B`
